@@ -1,4 +1,4 @@
-baseurl = "http://gutospinelli.github.io"
+baseurl = "/"
 title = "Augusto SPINELLI"
 theme = "hugo-coder"
 languagecode = "en"
