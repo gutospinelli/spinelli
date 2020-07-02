@@ -6,9 +6,41 @@
     <description>Recent content on Augusto SPINELLI</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
+    <lastBuildDate>Thu, 02 Jul 2020 18:24:29 -0300</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>My First Post</title>
+      <link>/posts/first/</link>
+      <pubDate>Thu, 02 Jul 2020 18:24:29 -0300</pubDate>
+      
+      <guid>/posts/first/</guid>
+      <description>This is my first post. Just testing these awesome hugo features.
+Follow me on Social Media!</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>/contact/</link>
+      <pubDate>Thu, 02 Jul 2020 18:06:13 -0300</pubDate>
+      
+      <guid>/contact/</guid>
+      <description>I do prefer to get contacted by email: gutospinelli at gmail dot com
+But feel free to contact me by my social media as well!</description>
+    </item>
+    
+    <item>
+      <title>About Me</title>
+      <link>/about/</link>
+      <pubDate>Thu, 02 Jul 2020 17:50:39 -0300</pubDate>
+      
+      <guid>/about/</guid>
+      <description>I am a Software Engineer with more than ten years of experience in a multitude of environments and technologies, including digital television, software auditing, proof of concept in Microsoft technologies and full-stack web development.
+I enjoy living different experiences in life and work and I see computer science as an instrument to improve people&amp;rsquo;s lives through the use of technology and a wonderful user experience.
+I am looking for a place where I can expand my knowledge and learn from world-class engineers.</description>
+    </item>
     
   </channel>
 </rss>

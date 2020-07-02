@@ -7,29 +7,32 @@
     <meta http-equiv="Content-Language" content="en">
 
     <meta name="author" content="Augusto SPINELLI">
-    <meta name="description" content="Augusto Spinelli website">
+    <meta name="description" content="My First Post">
     <meta name="keywords" content="dev,cv,parenting,bike,cars,tech">
 
     
 
     <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Augusto SPINELLI"/>
-<meta name="twitter:description" content="Augusto Spinelli website"/>
+<meta name="twitter:title" content="My First Post"/>
+<meta name="twitter:description" content="My First Post"/>
 
-    <meta property="og:title" content="Augusto SPINELLI" />
-<meta property="og:description" content="Augusto Spinelli website" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="/" />
-<meta property="og:updated_time" content="2020-07-02T18:24:29-03:00" />
+    <meta property="og:title" content="My First Post" />
+<meta property="og:description" content="My First Post" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/posts/first/" />
+<meta property="article:published_time" content="2020-07-02T18:24:29-03:00" />
+<meta property="article:modified_time" content="2020-07-02T18:24:29-03:00" />
 
-
-    
-      <base href="/">
-    
-    <title>Augusto SPINELLI</title>
 
     
-      <link rel="canonical" href="/">
+      <base href="/posts/first/">
+    
+    <title>
+  My First Post · Augusto SPINELLI
+</title>
+
+    
+      <link rel="canonical" href="/posts/first/">
     
 
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700&display=swap" rel="stylesheet">
@@ -55,7 +58,6 @@
     <link rel="icon" type="image/png" href="/img/favicon-32x32.png" sizes="32x32">
     <link rel="icon" type="image/png" href="/img/favicon-16x16.png" sizes="16x16">
 
-    <link rel="alternate" type="application/rss+xml" href="/index.xml" title="Augusto SPINELLI" />
     <meta name="generator" content="Hugo 0.73.0" />
   </head>
 
@@ -98,6 +100,8 @@
         
         
           
+        
+          
             
               <li class="navigation-item menu-separator">
                 <span>|</span>
@@ -118,48 +122,85 @@
 
       <div class="content">
         
-  <section class="container centered">
-  <div class="about">
-    
-      
-        <div class="avatar"><img src="/images/avatar.jpg" alt="avatar"></div>
-      
-    
-    
-    <h1>Augusto SPINELLI</h1>
-    <h2>Dev, Tech, Books and Bicycles</h2>
-    
-    <ul>
-      
-        
-          <li>
-            <a href="https://github.com/gutospinelli/" aria-label="Github"   >
-              <i class="fab fa-github fa-2x" aria-hidden="true"></i>
-            </a>
-          </li>
-        
-      
-        
-          <li>
-            <a href="https://www.linkedin.com/in/augustospinelli/" aria-label="Linkedin"   >
-              <i class="fab fa-linkedin fa-2x" aria-hidden="true"></i>
-            </a>
-          </li>
-        
-      
-        
-          <li>
-            <a href="https://twitter.com/gutospinelli/" aria-label="Twitter"   >
-              <i class="fab fa-twitter fa-2x" aria-hidden="true"></i>
-            </a>
-          </li>
-        
-      
-    </ul>
-    
-  </div>
-</section>
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">My First Post</h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fas fa-calendar"></i>
+              <time datetime='2020-07-02T18:24:29-03:00'>
+                July 2, 2020
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fas fa-clock"></i>
+              1-minute read
+            </span>
+          </div>
+          
+          
+        </div>
+      </header>
 
+      <div>
+        
+        <p>This is my first post. Just testing these awesome hugo features.</p>
+<p>Follow me on Social Media!</p>
+
+      </div>
+
+
+      <footer>
+        
+
+
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "yourdiscussshortname" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+        
+        
+      </footer>
+    </article>
+
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script type="text/javascript" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/startup.js" id="MathJax-script"></script>
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [
+          ['$', '$'], ['\\(', '\\)']
+        ],
+        processEscapes: true,
+        processEnvironments: true
+      },
+      options: {
+        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+      }
+    };
+  </script>
+  </section>
 
       </div>
 
