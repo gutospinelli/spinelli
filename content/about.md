@@ -1,7 +1,7 @@
 ---
 title: "About Me"
 date: 2020-07-02T17:50:39-03:00
-draft: true
+draft: false
 ---
 
 I am a **Software Engineer** with more than **ten years of experience** in a multitude of environments and technologies, including digital television, software auditing, proof of concept in Microsoft technologies and full-stack web development.
