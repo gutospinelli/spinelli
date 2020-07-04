@@ -1,7 +1,7 @@
 ---
 title: "Contact"
 date: 2020-07-02T18:06:13-03:00
-draft: true
+draft: false
 ---
 
 I do prefer to get contacted by email: **gutospinelli at gmail dot com**

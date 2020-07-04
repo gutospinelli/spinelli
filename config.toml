@@ -87,6 +87,7 @@ disqusShortname = "yourdiscussshortname"
             description = "Meu site pessoal"
             keywords = "blog,desenvolvedor,pessoal"
             footercontent = "Compartilhando conhecimento e amor."
+            colorscheme = "dark"
 
         [languages.pt-br.menu]
 
