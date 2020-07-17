@@ -49,6 +49,11 @@ disqusShortname = "yourdiscussshortname"
     icon = "fab fa-twitter fa-2x"
     weight = 3
     url = "https://twitter.com/gutospinelli/"
+[[params.social]]
+    name = "Goodreads"
+    icon = "fab fa-goodreads fa-2x"
+    weight = 3
+    url = "https://www.goodreads.com/user/show/67876228-augusto"
 
 [languages]
     [languages.en]
@@ -83,7 +88,7 @@ disqusShortname = "yourdiscussshortname"
 
         [languages.pt-br.params]
             author = "Augusto SPINELLI"
-            info = "Desenvolvimento, Tecnologia, Bicicletas e mais!"
+            info = "Desenvolvimento, Tecnologia, Livros, Bicicletas e mais!"
             description = "Meu site pessoal"
             keywords = "blog,desenvolvedor,pessoal"
             footercontent = "Compartilhando conhecimento e amor."
